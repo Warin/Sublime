@@ -1,0 +1,12 @@
+<template>
+	<!-- Or you set a path to a seperate Template File here -->
+	<file>HTMl5.html</file>
+
+	<!-- The filename for the new File, you can use the arguments to make it dynamic -->
+	<filename>$name.html</filename>
+
+	<!-- Optional: Add as much arguments as you need, they will be asked in the order specified -->
+	<arguments>
+		<name>Name:</name>
+	</arguments>
+</template>

@@ -1,0 +1,11 @@
+<template>
+	<file>XHTML.html</file>
+
+	<!-- The filename for the new File, you can use the arguments to make it dynamic -->
+	<filename>$name.html</filename>
+
+	<!-- Optional: Add as much arguments as you need, they will be asked in the order specified -->
+	<arguments>
+		<name>Name:</name>
+	</arguments>
+</template>

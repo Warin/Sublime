@@ -1,0 +1,10 @@
+syntax: glob
+*.pyc
+tags
+tags_sorted_by_file
+wiki/*
+OldPackage/*
+local_settings.py
+zen-coding.sublime-settings
+
+syntax: regexp

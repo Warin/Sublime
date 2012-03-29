@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "Edit history: Previous/Back",
+        "command": "previous_edit"
+    },
+    {
+        "caption": "Edit history: Next/Forward",
+        "command": "next_edit"
+    },
+    {
+        "caption": "Edit history: Clear",
+        "command": "clear_edits"
+    }
+]

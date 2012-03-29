@@ -1,0 +1,15 @@
+<template>
+	<file>jQueryPlugin.js</file>
+
+	<!-- The filename for the new File, you can use the arguments to make it dynamic -->
+	<filename>jquery.$name.js</filename>
+
+	<!-- Default Path to create the new file inside your current Project -->
+	<!-- you can use the arguments to make it dynamic -->
+	<path>js/</path>
+
+	<!-- Optional: Add as much arguments as you need, they will be asked in the order specified -->
+	<arguments>
+		<name>Name:</name>
+	</arguments>
+</template>

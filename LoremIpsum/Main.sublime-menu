@@ -1,0 +1,26 @@
+[
+    {
+        "id":"edit",
+        "children":
+        [
+            {
+                "id":"text",
+                "children":
+                [
+                    {
+                        "caption":"Lorem Ipsum...",
+                        "command": "lorem_ipsum",
+                        "mnemonic": "LI",
+                        "children":
+                        [
+                            {"command": "lorem_ipsum", "caption": "a bit", "args":{"qty":5}},
+                            {"command": "lorem_ipsum", "caption": "some", "args":{"qty":15}},
+                            {"command": "lorem_ipsum", "caption": "lots", "args":{"qty":30}},
+                            {"command": "lorem_ipsum", "caption": "stick shake", "args":{"qty":200}}
+                        ]    
+                    }
+                ]
+            }
+        ]
+    }
+]

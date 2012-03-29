@@ -1,0 +1,3 @@
+[
+    { "keys": ["super+ctrl+d"], "command": "duplicate_selections" }
+]

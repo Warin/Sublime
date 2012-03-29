@@ -1,0 +1,7 @@
+[
+  { "keys": ["alt+ctrl+shift+c"], "command": "csspecific", "context":
+    [
+      { "key": "selector", "operator" : "equal", "operand" : "source.css", "match_all": true}
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["super+."], "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    {
+        "keys": ["super+,"],  "command": "goto_css_declaration",
+        "args": {"goto": "prev"}
+    }
+]

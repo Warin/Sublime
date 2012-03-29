@@ -1,0 +1,20 @@
+<template>
+	<!-- You can us this to specifiy the content for the Template -->
+	<content><![CDATA[
+${0:Hello World}
+]]></content>
+	<!-- Or you set a path to a seperate Template File here -->
+	<!--<file>Files/FileTemplate.file-template</file>-->
+
+	<!-- The filename for the new File, you can use the arguments to make it dynamic -->
+	<filename>${1:somefile.ext}</filename>
+
+	<!-- Default Path to create the new file inside your current Project -->
+	<!-- you can use the arguments to make it dynamic -->
+	${2:<path>$3</path>}
+
+	<!-- Optional: Add as much arguments as you need, they will be asked in the order specified -->
+	${4:<arguments>
+		${5:<name>${6:Name:}</name>}
+	</arguments>}
+</template>

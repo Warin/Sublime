@@ -1,0 +1,6 @@
+[
+    {"caption":"-"},
+    { "command": "previous_edit", "caption": "Back"},
+    { "command": "next_edit", "caption": "Forward"},
+    {"caption":"-"}
+]

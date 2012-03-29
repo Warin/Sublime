@@ -1,0 +1,23 @@
+{
+	"cmd": [
+		"java",
+		"-jar", "${packages}/YUI Compressor/bin/yuicompressor-2.4.7.jar",
+		"--charset", "utf-8",
+		"--preserve-semi",
+		"--line-break", "150",
+		"-o", "${file_base_name}.min.${file_extension}",
+		"$file"
+	],
+    "windows": {
+        "cmd": [
+			"java",
+			"-jar", "${packages}\\YUI Compressor\\bin\\yuicompressor-2.4.7.jar",
+			"--charset", "utf-8",
+			"--preserve-semi",
+			"--line-break", "150",
+			"-o", "${file_base_name}.min.${file_extension}",
+			"$file"
+		]
+    },
+	"selector": "source.js, source.css"
+}

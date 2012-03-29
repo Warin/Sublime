@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+shift+t"], "command": "open_recent_files" }
+]
