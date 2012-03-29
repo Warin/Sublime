@@ -1,0 +1,13 @@
+{
+	"auto_complete": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"match_selection": false,
+	"open_files_in_new_window": false
+}

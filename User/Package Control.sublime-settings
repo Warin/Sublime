@@ -1,0 +1,29 @@
+{
+	"auto_upgrade_last_run": 1333031434,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"BufferScroll",
+		"ColorPicker",
+		"CSS Less(ish)",
+		"DocBlockr",
+		"DuplicateSelections",
+		"Edit History",
+		"FileTemplates",
+		"GenerateUUID",
+		"Goto-CSS-Declaration",
+		"LoremIpsum",
+		"Open Recent Files",
+		"Package Control",
+		"Prefixr",
+		"SFTP",
+		"SideBarEnhancements",
+		"sublime-csspecific",
+		"sublime-jslint",
+		"SublimeCodeIntel",
+		"SublimeTODO",
+		"YUI Compressor",
+		"ZenCoding"
+	]
+}

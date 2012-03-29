@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>fs:chk</string>
+        <key>uuid</key>
+        <string>1C228CC5-CAF1-48F6-B375-734FD7BE4091</string>
+        <key>content</key>
+        <string>&lt;div class="fs fs_chk"&gt;
+	&lt;div class="field"&gt;&lt;input class="chk" type="${4:checkbox}" id="$1" name="${2:form_}" value="${3:value}"${TM_XHTML}&gt;&lt;/div&gt;&lt;!-- .field --&gt;
+	&lt;div class="label"&gt;&lt;label for="$1"&gt;$3&lt;/label&gt;&lt;/div&gt;&lt;!-- .label --&gt;
+&lt;/div&gt;&lt;!-- .fs .fs_chk --&gt;
+</string>
+        <key>scope</key>
+        <string>text.html</string>
+        <key>tabTrigger</key>
+        <string>fs:chk</string>
+    </dict>
+</plist>

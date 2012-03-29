@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>fs:txt</string>
+        <key>uuid</key>
+        <string>D3279247-2984-4B8C-ABC0-EBAA8BEBF0CF</string>
+        <key>tabTrigger</key>
+        <string>fs:txt</string>
+        <key>content</key>
+        <string>&lt;div class="fs"&gt;
+	&lt;div class="label"&gt;&lt;label for="$1"&gt;$2&lt;/label&gt;&lt;/div&gt;&lt;!-- .label --&gt;
+	&lt;div class="field"&gt;
+		&lt;textarea cols="20" rows="10" name="$1" id="${1:form_}"${3: placeholder="Enter your ..."}&gt;$4&lt;/textarea&gt;
+	&lt;/div&gt;&lt;!-- .field --&gt;
+&lt;/div&gt;&lt;!-- .fs --&gt;
+</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>

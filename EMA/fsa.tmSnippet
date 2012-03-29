@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>fs:a</string>
+        <key>uuid</key>
+        <string>3C3DEB0D-8555-4795-A749-E9B08AE0E60F</string>
+        <key>content</key>
+        <string>&lt;div class="fs fs_a"&gt;
+	&lt;div class="actions"&gt;
+		&lt;button type="submit"&gt;&lt;span&gt;${1:&lt;span&gt;$2&lt;/span&gt;}&lt;/span&gt;&lt;/button&gt;
+	&lt;/div&gt;&lt;!-- .actions --&gt;
+&lt;/div&gt;&lt;!-- .fs .fs_a --&gt;
+</string>
+        <key>scope</key>
+        <string>text.html</string>
+        <key>tabTrigger</key>
+        <string>fs:act</string>
+    </dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>EMA.UI.MediaBox</string>
+        <key>uuid</key>
+        <string>9FE2944A-8876-4241-83F7-AD520E424129</string>
+        <key>content</key>
+        <string>&lt;div class="media"&gt;
+	&lt;a href="#" class="img"&gt;
+		&lt;img src="http://dummyimage.com/64x48/000/fff" alt="alternative text" /&gt;
+	&lt;/a&gt;&lt;!-- .img --&gt;
+	&lt;div class="bd"&gt;
+		&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+	&lt;/div&gt;&lt;!-- .bd --&gt;
+&lt;/div&gt;&lt;!-- .media --&gt;
+</string>
+        <key>scope</key>
+        <string>text.html</string>
+        <key>tabTrigger</key>
+        <string>.media</string>
+    </dict>
+</plist>

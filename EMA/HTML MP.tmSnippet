@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>HTML MP</string>
+        <key>uuid</key>
+        <string>90323586-6A40-4658-B3E9-8FBD2F6F7CBF</string>
+        <key>content</key>
+        <string>&lt;!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+	"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;
+&lt;head&gt;
+	&lt;title&gt;$1&lt;/title&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/&gt;
+	&lt;meta http-equiv="author" content="emakina.com" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="_css/base.css" /&gt;
+	&lt;!--[if lte IE 6]&gt;&lt;link rel="stylesheet" type="text/css" href="_css/ie6.css" /&gt;&lt;![endif]--&gt;
+	&lt;!--[if lte IE 7]&gt;&lt;link rel="stylesheet" type="text/css" href="_css/ie7.css" /&gt;&lt;![endif]--&gt;
+	&lt;link rel="shortcut icon" type="image/png" href="/favicon.ico" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	$0
+&lt;/body&gt;
+&lt;/html&gt;</string>
+        <key>scope</key>
+        <string>text.html</string>
+        <key>tabTrigger</key>
+        <string>html:mp</string>
+    </dict>
+</plist>

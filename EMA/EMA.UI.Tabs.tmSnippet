@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>EMA.UI.Tabs</string>
+        <key>uuid</key>
+        <string>5E27A352-9473-4E7E-BD92-9F57A5CC500E</string>
+        <key>tabTrigger</key>
+        <string>.tabs</string>
+        <key>content</key>
+        <string>&lt;div class="tabs"&gt;
+	&lt;div class="hd"&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#${1:tab}_0"&gt;${2:lorem ipsum}&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="active"&gt;&lt;a href="#$1_1"&gt;${3:dolor sit amet}&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#$1_2"&gt;${4:consectetur adipisicing}&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#$1_3"&gt;${5:elit, sed do}&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#$1_4"&gt;${6:eiusmod tempor}&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;&lt;!-- .hd --&gt;
+	&lt;div class="bd"&gt;
+		&lt;div id="$1_0" class="tab"&gt;
+			${7:#tab_0 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+		&lt;/div&gt;
+		&lt;div id="$1_1" class="tab tab_active"&gt;
+			${8:#tab_1.tab_active Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+		&lt;/div&gt;
+		&lt;div id="$1_2" class="tab"&gt;
+			${9:#tab_2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+		&lt;/div&gt;
+		&lt;div id="$1_3" class="tab"&gt;
+			${10:#tab_3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+		&lt;/div&gt;
+		&lt;div id="$1_4" class="tab"&gt;
+			${11:#tab_4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;!-- .bd --&gt;
+&lt;/div&gt;&lt;!-- .tabs --&gt;
+</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>

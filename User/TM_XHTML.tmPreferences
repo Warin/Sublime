@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>html variables</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_XHTML</string>
+				<key>value</key>
+				<string><![CDATA[ /]]></string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>EMA_USER</string>
+				<key>value</key>
+				<string><![CDATA[mga]]></string>
+			</dict>
+		</array>
+
+	</dict>
+	<key>uuid</key>
+	<string>1b0fa5cf-16d2-4a73-becb-6e584337658b</string>
+</dict>
+</plist>
