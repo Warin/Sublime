@@ -1,12 +1,15 @@
 {
-	"auto_upgrade_last_run": 1333031434,
+	"auto_upgrade_last_run": 1333461111,
 	"installed_packages":
 	[
 		"Alignment",
+		"AutoFileName",
 		"BracketHighlighter",
 		"BufferScroll",
+		"Case Conversion",
 		"ColorPicker",
 		"CSS Less(ish)",
+		"CSSLint",
 		"DocBlockr",
 		"DuplicateSelections",
 		"Edit History",
@@ -19,11 +22,18 @@
 		"Prefixr",
 		"SFTP",
 		"SideBarEnhancements",
+		"StringEncode",
 		"sublime-csspecific",
 		"sublime-jslint",
 		"SublimeCodeIntel",
 		"SublimeTODO",
+		"Tortoise",
 		"YUI Compressor",
 		"ZenCoding"
+	],
+	"repositories":
+	[
+		"https://github.com/srackham/w3c-validator",
+		"https://github.com/captainbrosset/cleanjs"
 	]
 }

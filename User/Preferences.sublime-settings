@@ -2,6 +2,7 @@
 	"auto_complete": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
