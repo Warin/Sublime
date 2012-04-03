@@ -1,0 +1,15 @@
+{
+	// Delay to display the 'compiled' content before restoring the view
+	"restore_delay": 0,
+
+	// Duration to highlight the affected areas after saving the file
+	"highlight_delay": 500,
+
+	// Highlight @variables after saving
+	"variables_highlight_scope": "entity.name.class",
+	"variables_highlight_outline": true,
+
+	// Highlight nestings after saving
+	"nesting_highlight_scope": "comment.string",
+	"nesting_highlight_outline": true
+}

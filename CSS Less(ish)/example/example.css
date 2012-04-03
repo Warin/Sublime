@@ -1,0 +1,48 @@
+/*
+* This is an example of two features @variables within css, and css nesting.
+* Below are some examples of variables...
+*
+* @link-colour = '#336699'
+* @hover-colour = desaturate(#FF0000, 20%)
+* @brighter = lighten (@link-colour ,  .2)
+* @background="#EEE"
+* @typography = "font-family:arial, serif; font-size:100%; "
+* @corners='border-radius: 10px; -webkit-border-radius: 10px; -mox-border-radius: 10px;'
+*
+*/
+
+	/*  
+	* Structure 
+	*/
+	body { text-align:center; font-family:arial, serif; font-size:100%; }
+	#content { margin:40px auto; text-align:left; width:800px; }
+
+	/*  
+	* Default styles - with an inline quote here, @border-color = '#CCC' 
+	*/
+	.box {
+		background: #EEE;
+		border: solid 1px #CCC;
+		margin: 40px 0;
+		padding: 10px 20px;
+		border-radius: 10px; -webkit-border-radius: 10px; -mox-border-radius: 10px;
+	}
+	h1 { font-size:160%; }
+	a { color:#336699; }
+	a:hover { background:#3d7ab7; color:#cc2828; }
+
+
+	/*  
+	* Two examples styles using nestings (nb. square brackets) 
+	*/
+	/*#bottom [*/
+		#bottom h1 { color:red; }
+		#bottom a { color:green; } 
+		#bottom input[type="text"] { background:#EEE; } /* Can have selectors with within nestings */
+	/*]*/
+
+	/*#bottom .box [*/
+		#bottom .box p { font-size:12px; }
+	/*]*/
+
+/* Variables:link-colour{863:870}.border-color{701:705}.corners{749:824}.typography{465:506}.brighter{896:903}.background{675:679,1082:1086}.hover-colour{911:918} */

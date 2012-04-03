@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+shift+u"], "command": "generate_uuid" }
+]
