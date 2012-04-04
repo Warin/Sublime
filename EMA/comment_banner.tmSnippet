@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+	<string>comment banner</string>
+        <key>uuid</key>
+        <string>4ab5bc7d-bcf8-4b80-90c3-561247a60d2b</string>
+        <key>content</key>
+        <string><![CDATA[// ==${1/./=/g}==
+// = ${1:Banner} =
+// ==${1/./=/g}==]]></string>
+        <key>scope</key>
+        <string>source.js</string>
+        <key>tabTrigger</key>
+        <string>head</string>
+    </dict>
+</plist>
