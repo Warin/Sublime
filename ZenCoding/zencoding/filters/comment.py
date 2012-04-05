@@ -26,12 +26,13 @@ def add_comments(node, i):
 		if id_attr: comment_str += '#' + id_attr
 		if class_attr: comment_str += '.' + class_attr
 		
-		node.start = node.start.replace('<', '<!-- ' + comment_str + ' -->' + nl + padding + '<', 1)
-		node.end = node.end.replace('>', '>' + nl + padding + '<!-- /' + comment_str + ' -->', 1)
+		#node.start = node.start.replace('<', '<!-- ' + comment_str + ' -->' + nl + padding + '<', 1)
+		#node.end = node.end.replace('>', '>' + nl + padding + '<!-- /' + comment_str + ' -->', 1)
+		node.end = node.end.replace('>', '><!-- ' + comment_str + ' -->', 1)
 		
 		# replace counters
 		counter = zencoding.utils.get_counter_for_node(node)
-		node.start = utils.replace_counter(node.start, counter)
+		#node.start = utils.replace_counter(node.start, counter)
 		node.end = utils.replace_counter(node.end, counter)
 
 @zencoding.filter('c')
