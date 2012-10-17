@@ -1,0 +1,4 @@
+{
+    "cmd": ["java", "-jar", "${packages}/User/build/bin/Google Closure/closure-stylesheets.jar", "--output-file","${file_path}/${file_base_name}.min.css", "$file"],
+    "selector": "source.css"
+}
