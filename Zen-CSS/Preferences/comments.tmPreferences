@@ -28,6 +28,12 @@
 				<key>value</key>
 				<string>yes</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>TM_CSS_SPACE</string>
+				<key>value</key>
+				<string><![CDATA[]]></string>
+			</dict>
 		</array>
 	</dict>
 	<key>uuid</key>
